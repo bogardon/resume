@@ -1,0 +1,153 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Friggeri Resume/CV
+% XeLaTeX Template
+% Version 1.0 (5/5/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Adrien Friggeri (adrien@friggeri.net)
+% https://github.com/afriggeri/CV
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important notes:
+% This template needs to be compiled with XeLaTeX and the bibliography, if used,
+% needs to be compiled with biber rather than bibtex.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[]{friggeri-cv} % Add 'print' as an option into the square bracket to remove colors from this template for printing
+
+\begin{document}
+
+\header{john}{wu}{software engineer} % Your name and current job title/field
+
+%----------------------------------------------------------------------------------------
+% SIDEBAR SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{aside} % In the aside, each new line forces a line break
+\section{contact}
+1 St Francis Pl 1508
+San Francisco, CA
+94107
+~
+(404) 281 6063
+~
+\href{mailto:bogardon@gmail.com}{email}
+\href{http://bogardon.github.io}{blog}
+\href{https://github.com/bogardon}{github}
+\href{https://twitter.com/bogardon/}{twitter}
+\section{languages}
+Objective-C, Ruby
+\section{frameworks}
+Cocoa, Rails, Sinatra, Rubymotion
+\section{notes}
+r\`{e}sum\`{e} designed by \href{https://github.com/afriggeri/cv}{Adrien Friggeri}
+\end{aside}
+
+%----------------------------------------------------------------------------------------
+% SUMMARY SECTION
+%----------------------------------------------------------------------------------------
+
+\section{objective}
+
+To become a well-rounded, full-stack engineer proficient in both mobile and web.
+
+%----------------------------------------------------------------------------------------
+% WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{experience}
+
+\begin{entrylist}
+%------------------------------------------------
+\entry
+{2013--Now}
+{\href{http://www.okcupidlabs.com/}{OKCUPID LABS}}
+{San Francisco, CA}
+{\emph{Software Engineer} \\
+Worked as the in-house iOS expert on a number of social products focused on connecting people. Used Rubymotion, Rails, Objective-C, and NodeJS.
+\begin{itemize}
+\item \href{https://itunes.apple.com/us/app/opal-discover-your-world/id651756464?mt=8}{Opal}
+\item \href{https://itunes.apple.com/us/app/ravel!/id610859881?mt=8}{Ravel}
+\item \href{https://itunes.apple.com/us/app/twhodo/id672055708?mt=8}{Twhodo}
+\end{itemize}}
+%------------------------------------------------
+\entry
+{2011--2013}
+{\href{http://gomiso.com/}{MISO}}
+{San Francisco, CA}
+{\emph{Software Engineer} \\
+Developed social TV products with 2nd screen features and set-top-box integration. Used Objective-C, Rails, Sinatra, Padrino, and some HTML/CSS/Javascript.
+\begin{itemize}
+\item \href{https://itunes.apple.com/us/app/quips/id491880337?mt=8}{Quips}
+\begin{itemize}
+\item Created custom caching layer for full offline access
+\end{itemize}
+\item \href{https://itunes.apple.com/us/app/miso-social-tv/id352823603?mt=8}{Miso}
+\begin{itemize}
+\item Embedded web views mixed with native UI elements
+\end{itemize}
+\end{itemize}}
+%------------------------------------------------
+\entry
+{2011--2011}
+{\href{http://aurnhammerllc.com/}{AURNHAMMER}}
+{New York, NY}
+{\emph{Software Engineer} \\
+Worked as a junior iOS engineer making branded applications. Used Objective-C exclusively.
+\begin{itemize}
+\item \href{https://itunes.apple.com/us/app/extra-innings-mobile-instructor/id446931011?mt=8}{Extra Innings Mobile Instructor}
+\begin{itemize}
+\item Used OpenGL ES for shape drawing
+\item Exported videos using AVFoundation
+\end{itemize}
+\item \href{https://itunes.apple.com/us/app/argh/id461503619?mt=8}{aRgh}
+\end{itemize}}
+%------------------------------------------------
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+% SIDE PROJECTS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{side projects}
+
+\begin{itemize}
+\item Whack-a-mole iPhone game with donuts (Cocos2D)
+\item I spy based iPhone application (Rubymotion and Sinatra)
+\item Various open-source projects on GitHub
+\begin{itemize}
+\item \href{https://github.com/bogardon/MSPullToRefreshController}{MSPullToRefreshController}
+\item \href{https://github.com/bogardon/GGFullscreenImageViewController}{GGFullscreenImageViewController}
+\item \href{https://github.com/bogardon/projectile}{projectile}
+\end{itemize}
+\end{itemize}
+
+%----------------------------------------------------------------------------------------
+% EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{education}
+
+\begin{entrylist}
+%------------------------------------------------
+\entry
+{2009--2011}
+{M.S. {\normalfont in Mathematics}}
+{New York, NY}
+{\href{http://www.math.nyu.edu/}{New York University}}
+%------------------------------------------------
+% \entry
+% {2005--2009}
+% {B.S. {\normalfont in Applied Mathematics}}
+% {Atlanta, GA}
+% {\href{http://math.gatech.edu/}{Georgia Institute of Technology}}
+%------------------------------------------------
+\end{entrylist}
+
+\end{document}
